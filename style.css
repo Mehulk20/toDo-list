@@ -40,7 +40,7 @@ body {
 
 .main-box {
   width: 30%;
-  height: 90%;
+  height: 90vh;
   background-image: url("./images/bg-desktop-dark.jpg");
   background-repeat: no-repeat;
   background-size: 100% 30%;
