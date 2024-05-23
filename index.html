@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Todo app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="main-box">
+        <div class="heading">
+          <h3>TODO</h3>
+          <div class="modes">
+            <div class="modes-slider">
+              <span class="on-off"></span>
+            </div>
+          </div>
+        </div>
+        <div class="add-todo">
+          <div class="radio">
+            <span class="add-ico"></span>
+          </div>
+          <div class="typeBox">
+            <textarea
+              name="todo-input"
+              id="input-todo"
+              rows="1"
+              placeholder="Type in your text here..."
+            ></textarea>
+          </div>
+        </div>
+        <div class="list-todo"></div>
+        <div class="list-informtion">
+          <span class="total-task-count">00</span>
+          <span class="all-list">All</span>
+          <span class="active-list">Active</span>
+          <span class="completed-list">Completed</span>
+        </div>
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kumar Mehul</a>.
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
